@@ -3,11 +3,12 @@ package ua.external.lab.droids;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Terminator extends CombatantDroid implements RocketBlaster, ArmoredShield {
+public class Terminator extends Droid implements RocketBlaster, ArmoredShield {
     private List<String> listWeaponsAndAmmunition = new ArrayList<String>();
 
     public Terminator(int[] arr, String name) {
         super(arr, name);
+        repairYourSelf = new NotRepair();
     }
 
     public List<String> getListWeaponsAndAmmunition() {

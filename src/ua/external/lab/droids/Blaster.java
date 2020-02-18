@@ -2,5 +2,5 @@ package ua.external.lab.droids;
 
 public interface Blaster {
     String name = "Blaster";
-    int blasterImpact = 5;
+    int blasterImpact = 3;
 }

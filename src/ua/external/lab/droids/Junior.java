@@ -5,10 +5,13 @@ import java.util.List;
 
 public class Junior extends Droid implements SimpleShield, Blaster {
 
+
+
     private List<String> listWeaponsAndAmmunition = new ArrayList<String>();
 
     public Junior(int[] arr, String name) {
         super(arr, name);
+        repairYourSelf = new SuperRepair();
     }
 
     @Override
@@ -23,6 +26,8 @@ public class Junior extends Droid implements SimpleShield, Blaster {
         setProtection(getProtection()+simpleShieldProtection);
         listWeaponsAndAmmunition.add(SimpleShield.name);
     }
+
+
 
     @Override
     public String toString() {

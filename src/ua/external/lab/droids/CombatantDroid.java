@@ -3,11 +3,12 @@ package ua.external.lab.droids;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CombatantDroid extends SimpleDroid implements ArmoredShield, LaserBlaster {
+public class CombatantDroid extends Droid implements ArmoredShield, LaserBlaster {
     private List<String> listWeaponsAndAmmunition = new ArrayList<String>();
 
     public CombatantDroid(int[] arr, String name) {
         super(arr, name);
+        repairYourSelf = new SimpleRepair();
     }
 
     @Override
