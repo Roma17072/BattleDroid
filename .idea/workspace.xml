@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a88bdd4-9e56-4871-b2fd-b9b4f805a6e4" name="Default Changelist" comment="" />
+    <list default="true" id="5a88bdd4-9e56-4871-b2fd-b9b4f805a6e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/property/text.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/text_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/property/text_uk_UA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroidModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/CheckInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/NotRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/RepairAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/SuperRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/ViewBattleDroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/ViewConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/ArmoredShield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/BattleDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/BattleDroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Blaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/CombatantDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/CombatantDroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Description.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Description.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Droid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Droid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Junior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Junior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/LaserBlaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/RocketBlaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleDroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleShield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Terminator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Terminator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/ArmoredShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/ArmoredShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Blaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/Blaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/CombatantDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/CombatantDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Droid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Junior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Junior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/LaserBlaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/LaserBlaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/RocketBlaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/RocketBlaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/SimpleShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Terminator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Terminator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +56,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="BattleDroidVer3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XZiaogRweTmoybY6iI3sl7VeJ4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,13 +80,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ua.external.lab" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="BattleDroid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.external.lab.droids.BattleDroid" />
       <module name="BattleDroid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.external.lab.droids.*" />
+          <option name="PATTERN" value="ua.external.lab.registrarion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,62 +119,90 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1581816196848">
+    <state x="274" y="26" key="#Notifications" timestamp="1582408944434">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1581816196848" />
+    <state x="274" y="26" key="#Notifications/0.0.1364.728@0.0.1364.728" timestamp="1582408944434" />
+    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1582392395595">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1582392395595" />
     <state x="686" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581347912436" />
-    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581799010851">
+    <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582379755576">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1364.728@0.0.1364.728" timestamp="1581799010851" />
+    <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1364.728@0.0.1364.728" timestamp="1582379755576" />
+    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582382828663">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1364.728@0.0.1364.728" timestamp="1582382828663" />
+    <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582405631735">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1364.728@0.0.1364.728" timestamp="1582405631735" />
     <state x="504" y="61" key="#toString()_Generation_Settings" timestamp="1581342889195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="61" key="#toString()_Generation_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1581342889195" />
-    <state width="1321" height="537" key="GridCell.Tab.0.bottom" timestamp="1581857621688">
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2" timestamp="1582409149063">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="537" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1581857621688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581347961033" />
-    <state width="1321" height="537" key="GridCell.Tab.0.center" timestamp="1581857621688">
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" timestamp="1582409149063" />
+    <state width="1321" height="169" key="GridCell.Tab.0.bottom" timestamp="1582409149095">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="537" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1581857621688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581347961033" />
-    <state width="1321" height="537" key="GridCell.Tab.0.left" timestamp="1581857621688">
+    <state width="1321" height="169" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
+    <state width="1321" height="169" key="GridCell.Tab.0.center" timestamp="1582409149095">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="537" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1581857621688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581347961033" />
-    <state width="1321" height="537" key="GridCell.Tab.0.right" timestamp="1581857621688">
+    <state width="1321" height="169" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
+    <state width="1321" height="169" key="GridCell.Tab.0.left" timestamp="1582409149095">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="537" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1581857621688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581347961033" />
-    <state width="1321" height="223" key="GridCell.Tab.1.bottom" timestamp="1581777940800">
+    <state width="1321" height="169" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
+    <state width="1321" height="169" key="GridCell.Tab.0.right" timestamp="1582409149095">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="223" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" timestamp="1581777940800" />
-    <state width="1321" height="223" key="GridCell.Tab.1.center" timestamp="1581777940800">
+    <state width="1321" height="169" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
+    <state width="1321" height="414" key="GridCell.Tab.1.bottom" timestamp="1582399898544">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="223" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" timestamp="1581777940800" />
-    <state width="1321" height="223" key="GridCell.Tab.1.left" timestamp="1581777940800">
+    <state width="1321" height="414" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1877" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
+    <state width="1321" height="414" key="GridCell.Tab.1.center" timestamp="1582399898544">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="223" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" timestamp="1581777940800" />
-    <state width="1321" height="223" key="GridCell.Tab.1.right" timestamp="1581777940800">
+    <state width="1321" height="414" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1877" height="401" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
+    <state width="1321" height="414" key="GridCell.Tab.1.left" timestamp="1582399898544">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="223" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" timestamp="1581777940800" />
+    <state width="1321" height="414" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1877" height="401" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
+    <state width="1321" height="414" key="GridCell.Tab.1.right" timestamp="1582399898544">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1321" height="414" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1877" height="401" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
+    <state x="274" y="101" key="Vcs.Push.Dialog.v2" timestamp="1582409021809">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="274" y="101" key="Vcs.Push.Dialog.v2/0.0.1364.728@0.0.1364.728" timestamp="1582409021809" />
+    <state x="424" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582380605423">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="424" y="0" key="refactoring.ChangeSignatureDialog/0.0.1364.728@0.0.1364.728" timestamp="1582380605423" />
     <state x="338" y="162" key="run.anything.popup" timestamp="1581857068849">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="338" y="162" key="run.anything.popup/0.0.1364.728@0.0.1364.728" timestamp="1581857068849" />
-    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581816580458">
+    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582405796389">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1581816580458" />
+    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1582405796389" />
   </component>
 </project>

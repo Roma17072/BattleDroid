@@ -1,12 +1,16 @@
 package ua.external.lab.droids;
+import ua.external.lab.weaponAndAmmunition.LaserBlaster;
+import ua.external.lab.weaponAndAmmunition.SimpleShield;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class SimpleDroid extends Junior implements LaserBlaster {
+public class SimpleDroid extends Droid implements SimpleShield, LaserBlaster {
     private List<String> listWeaponsAndAmmunition = new ArrayList<String>();
 
     public SimpleDroid (int[] arr, String name) {
         super(arr, name);
+        repairYourSelf = new SimpleRepair();
     }
 
     @Override

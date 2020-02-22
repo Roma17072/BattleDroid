@@ -8,15 +8,16 @@ abstract class Droid {
     private int impact;
     private int protection;
     private String name;
+    private int healthWithAmmunition;
+    RepairAble repairYourSelf;
 
-    abstract void WeaponsAndAmmunition();
-
-    public Droid(int arr [], String name ) {
+    public Droid(int[] arr, String name ) {
         this.health = arr[0];
         this.impact = arr[1];
         this.protection = arr[2];
         this.name = name;
     }
+    abstract void WeaponsAndAmmunition();
 
     public int getHealth() {
         return health;
@@ -49,16 +50,25 @@ abstract class Droid {
         return this;
     }
 
+    public int getHealthWithAmmunition() {
+        return healthWithAmmunition;
+    }
+
     @Override
     public String toString() {
-        return "Name " +name +
-                " {" + "health=" + health +
+        return " {" + "health=" + health +
                 ", impact=" + impact +
                 ", protection=" + protection +
                 '}';
     }
 
+    public void saveHealth(){
+        healthWithAmmunition = health;
+    }
+
     public abstract List<String> getListWeaponsAndAmmunition();
 
-
+    public int repair(){
+       return repairYourSelf.repair();
+    }
 }

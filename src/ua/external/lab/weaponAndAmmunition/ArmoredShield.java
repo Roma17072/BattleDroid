@@ -1,4 +1,4 @@
-package ua.external.lab.droids;
+package ua.external.lab.weaponAndAmmunition;
 
 public interface ArmoredShield {
     String name = "Armored Shield";
