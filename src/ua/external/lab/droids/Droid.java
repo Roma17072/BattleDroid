@@ -1,6 +1,7 @@
 package ua.external.lab.droids;
 
-import java.util.ArrayList;
+import ua.external.lab.repairable.RepairAble;
+
 import java.util.List;
 
 abstract class Droid {
@@ -17,7 +18,7 @@ abstract class Droid {
         this.protection = arr[2];
         this.name = name;
     }
-    abstract void WeaponsAndAmmunition();
+    public abstract void WeaponsAndAmmunition();
 
     public int getHealth() {
         return health;

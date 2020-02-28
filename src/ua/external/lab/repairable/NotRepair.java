@@ -1,4 +1,6 @@
-package ua.external.lab.droids;
+package ua.external.lab.repairable;
+
+import ua.external.lab.repairable.RepairAble;
 
 public class NotRepair implements RepairAble {
     @Override

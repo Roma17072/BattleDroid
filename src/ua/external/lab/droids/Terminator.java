@@ -1,5 +1,6 @@
 package ua.external.lab.droids;
 
+import ua.external.lab.repairable.NotRepair;
 import ua.external.lab.weaponAndAmmunition.ArmoredShield;
 import ua.external.lab.weaponAndAmmunition.RocketBlaster;
 
@@ -19,7 +20,7 @@ public class Terminator extends Droid implements RocketBlaster, ArmoredShield {
     }
 
     @Override
-    void WeaponsAndAmmunition() {
+    public void WeaponsAndAmmunition() {
         setProtection(getProtection()+armoredShieldProtection);
         listWeaponsAndAmmunition.add(ArmoredShield.name);
         setImpact(getImpact()+rocketBlasterImpact);

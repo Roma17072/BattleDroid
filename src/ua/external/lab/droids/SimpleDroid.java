@@ -1,4 +1,5 @@
 package ua.external.lab.droids;
+import ua.external.lab.repairable.SimpleRepair;
 import ua.external.lab.weaponAndAmmunition.LaserBlaster;
 import ua.external.lab.weaponAndAmmunition.SimpleShield;
 
@@ -20,7 +21,7 @@ public class SimpleDroid extends Droid implements SimpleShield, LaserBlaster {
 
 
     @Override
-    void WeaponsAndAmmunition() {
+    public void WeaponsAndAmmunition() {
         setProtection(getProtection()+simpleShieldProtection);
         listWeaponsAndAmmunition.add(SimpleShield.name);
         setImpact(getImpact()+laserBlasterImpact);

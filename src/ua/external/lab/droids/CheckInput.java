@@ -1,8 +1,9 @@
 package ua.external.lab.droids;
+
 import java.io.BufferedReader;
 import java.io.IOException;
-import static ua.external.lab.droids.ViewBattleDroid.print;
 
+import static ua.external.lab.droids.ViewBattleDroid.print;
 public interface CheckInput {
     static int checkInput(BufferedReader br) {
         int value = 0;

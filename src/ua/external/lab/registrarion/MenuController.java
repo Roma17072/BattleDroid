@@ -28,6 +28,11 @@ public class MenuController implements CheckInput {
         this.userController = userController;
         this.adminController = adminController;
     }
+
+    public String getProfile() {
+        return profile;
+    }
+
     public void registrationOrAuthorization() throws IOException {
         print(ViewBattleDroid.CHOSE_LANGUAGE);
         viewGameProcess.viewLanguage(CheckInput.checkInput(br));

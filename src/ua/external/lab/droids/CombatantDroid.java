@@ -1,5 +1,6 @@
 package ua.external.lab.droids;
 
+import ua.external.lab.repairable.SimpleRepair;
 import ua.external.lab.weaponAndAmmunition.ArmoredShield;
 import ua.external.lab.weaponAndAmmunition.LaserBlaster;
 
@@ -20,7 +21,7 @@ public class CombatantDroid extends Droid implements ArmoredShield, LaserBlaster
     }
 
     @Override
-    void WeaponsAndAmmunition() {
+    public void WeaponsAndAmmunition() {
         setProtection(getProtection()+armoredShieldProtection);
         listWeaponsAndAmmunition.add(ArmoredShield.name);
         setImpact(getImpact()+laserBlasterImpact);
