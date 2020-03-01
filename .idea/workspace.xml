@@ -1,58 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a88bdd4-9e56-4871-b2fd-b9b4f805a6e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/property/text.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/text_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/text_uk_UA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroidModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/CheckInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/NotRepair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/RepairAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleRepair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/SuperRepair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/ViewBattleDroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/ViewConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java" afterDir="false" />
+    <list default="true" id="5a88bdd4-9e56-4871-b2fd-b9b4f805a6e4" name="Default Changelist" comment="BattleDroid version6">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/HeavyDroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/liteDroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/DroidV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/ViewConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/AmmunitionAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/Knife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/ProtectiveVest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/WeaponAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/WeaponAndAmmunition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unittest/WeaponAndAmmunitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/BattleDroid.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/CheckInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/CombatantDroid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/Description.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/Droid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/HeavyDroid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/Junior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/SimpleDroid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/Terminator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/liteDroid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/BattleDroid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/BattleDroidModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/DroidV6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/ViewBattleDroid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/ViewConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/registrarion/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/registrarion/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/repairable/NotRepair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/repairable/RepairAble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/repairable/SimpleRepair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/repairable/SuperRepair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/AmmunitionAble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/ArmoredShield.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/Blaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/Knife.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/LaserBlaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/ProtectiveVest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/RocketBlaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/Shield.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/SimpleShield.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/WeaponAble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/WeaponAndAmmunition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/BattleDroidModelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/CombatantDroidTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/JuniorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/MenuControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/SimpleDroidTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/TerminatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/WeaponAndAmmunitionTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unittest/WeaponAndAmmunitionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/ArmoredShield.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/BattleDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/BattleDroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Blaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/CombatantDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/CombatantDroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Description.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Description.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Droid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Droid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Junior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Junior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/LaserBlaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/RocketBlaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleDroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleShield.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Terminator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Terminator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/ArmoredShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/ArmoredShield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Blaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/Blaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BattleDroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BattleDroid.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/property/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/property/text_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/text_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/property/text_uk_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/text_uk_UA.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/property/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/text_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/property/text_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/text_uk_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/property/text_uk_UA.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/BattleDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/BattleDroidModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/BattleDroidModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/CheckInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/CheckInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/CombatantDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/CombatantDroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Description.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Droid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Junior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Junior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/LaserBlaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/LaserBlaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/RocketBlaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/RocketBlaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/SimpleShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/SimpleShield.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Terminator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Terminator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/ViewBattleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/ViewBattleDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/ViewConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/repairable/RepairAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/repairable/RepairAble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/ArmoredShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/ArmoredShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/Blaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/Blaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/LaserBlaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/LaserBlaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/RocketBlaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/RocketBlaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/SimpleShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/SimpleShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/BattleDroidModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/BattleDroidModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/CombatantDroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/CombatantDroidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/JuniorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/JuniorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/MenuControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/MenuControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/SimpleDroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/SimpleDroidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/TerminatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/TerminatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="74" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,20 +151,38 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="unittest" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ua.external.lab" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JC\BattleDroid" />
+      <recent name="D:\JC\BattleDroid\src\ua\external\lab" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="BattleDroid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.external.lab.droids.BattleDroid" />
+  <component name="RunManager" selected="Application.DroidV6">
+    <configuration name="DroidV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.external.lab.mvc.DroidV6" />
       <module name="BattleDroid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.external.lab.registrarion.*" />
+          <option name="PATTERN" value="ua.external.lab.mvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +190,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BattleDroidModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BattleDroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unittest" />
+      <option name="MAIN_CLASS_NAME" value="unittest.BattleDroidModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleDroidModelTest.chooseDroids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BattleDroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unittest" />
+      <option name="MAIN_CLASS_NAME" value="unittest.BattleDroidModelTest" />
+      <option name="METHOD_NAME" value="chooseDroids" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleDroidModelTest.chooseDroidsTerminator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BattleDroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unittest" />
+      <option name="MAIN_CLASS_NAME" value="unittest.BattleDroidModelTest" />
+      <option name="METHOD_NAME" value="chooseDroidsTerminator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unittest" type="TestNG" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <module name="BattleDroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="unittest" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BattleDroid" />
+        <item itemvalue="Application.DroidV6" />
+        <item itemvalue="JUnit.BattleDroidModelTest.chooseDroids" />
+        <item itemvalue="TestNG.unittest" />
+        <item itemvalue="JUnit.BattleDroidModelTest.chooseDroidsTerminator" />
+        <item itemvalue="JUnit.BattleDroidModelTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -118,24 +286,32 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BattleDroid version6" />
+    <option name="LAST_COMMIT_MESSAGE" value="BattleDroid version6" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="274" y="26" key="#Notifications" timestamp="1582408944434">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="274" y="26" key="#Notifications/0.0.1364.728@0.0.1364.728" timestamp="1582408944434" />
-    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1582392395595">
+    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1583075805355">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1582392395595" />
+    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1583075805355" />
     <state x="686" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581347912436" />
+    <state x="412" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583013988257">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="412" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1364.728@0.0.1364.728" timestamp="1583013988257" />
     <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582379755576">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1364.728@0.0.1364.728" timestamp="1582379755576" />
-    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582382828663">
+    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583069934719">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1364.728@0.0.1364.728" timestamp="1582382828663" />
+    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1364.728@0.0.1364.728" timestamp="1583069934719" />
     <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582405631735">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
@@ -144,65 +320,96 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="61" key="#toString()_Generation_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1581342889195" />
-    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2" timestamp="1582409149063">
+    <state x="401" y="35" key="#unittest" timestamp="1583014011700">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" timestamp="1582409149063" />
-    <state width="1321" height="169" key="GridCell.Tab.0.bottom" timestamp="1582409149095">
+    <state x="401" y="35" key="#unittest/0.0.1364.728@0.0.1364.728" timestamp="1583014011700" />
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2" timestamp="1583083537775">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="169" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" timestamp="1583083537775" />
+    <state width="1321" height="461" key="GridCell.Tab.0.bottom" timestamp="1583083092822">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1321" height="461" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1583083092822" />
     <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
-    <state width="1321" height="169" key="GridCell.Tab.0.center" timestamp="1582409149095">
+    <state width="1321" height="461" key="GridCell.Tab.0.center" timestamp="1583083092822">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="169" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1321" height="461" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1583083092822" />
     <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
-    <state width="1321" height="169" key="GridCell.Tab.0.left" timestamp="1582409149095">
+    <state width="1321" height="461" key="GridCell.Tab.0.left" timestamp="1583083092822">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="169" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1321" height="461" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1583083092822" />
     <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
-    <state width="1321" height="169" key="GridCell.Tab.0.right" timestamp="1582409149095">
+    <state width="1321" height="461" key="GridCell.Tab.0.right" timestamp="1583083092822">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="169" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1582409149095" />
+    <state width="1321" height="461" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1583083092822" />
     <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582290178153" />
-    <state width="1321" height="414" key="GridCell.Tab.1.bottom" timestamp="1582399898544">
+    <state width="1321" height="289" key="GridCell.Tab.1.bottom" timestamp="1583071983728">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="414" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1321" height="289" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" timestamp="1583071983728" />
     <state width="1877" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
-    <state width="1321" height="414" key="GridCell.Tab.1.center" timestamp="1582399898544">
+    <state width="1321" height="289" key="GridCell.Tab.1.center" timestamp="1583071983728">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="414" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1321" height="289" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" timestamp="1583071983728" />
     <state width="1877" height="401" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
-    <state width="1321" height="414" key="GridCell.Tab.1.left" timestamp="1582399898544">
+    <state width="1321" height="289" key="GridCell.Tab.1.left" timestamp="1583071983728">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="414" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1321" height="289" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" timestamp="1583071983728" />
     <state width="1877" height="401" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
-    <state width="1321" height="414" key="GridCell.Tab.1.right" timestamp="1582399898544">
+    <state width="1321" height="289" key="GridCell.Tab.1.right" timestamp="1583071983728">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="414" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" timestamp="1582399898544" />
+    <state width="1321" height="289" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" timestamp="1583071983728" />
     <state width="1877" height="401" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582290176146" />
-    <state x="274" y="101" key="Vcs.Push.Dialog.v2" timestamp="1582409021809">
+    <state x="274" y="101" key="Vcs.Push.Dialog.v2" timestamp="1583083589436">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="274" y="101" key="Vcs.Push.Dialog.v2/0.0.1364.728@0.0.1364.728" timestamp="1582409021809" />
+    <state x="274" y="101" key="Vcs.Push.Dialog.v2/0.0.1364.728@0.0.1364.728" timestamp="1583083589436" />
+    <state x="92" y="92" width="1180" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582974153860">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="92" y="92" width="1180" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1364.728@0.0.1364.728" timestamp="1582974153860" />
+    <state x="386" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582966748133">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="386" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1364.728@0.0.1364.728" timestamp="1582966748133" />
+    <state x="435" y="97" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583011217353">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="435" y="97" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1364.728@0.0.1364.728" timestamp="1583011217353" />
+    <state x="389" y="0" width="586" height="728" key="find.popup" timestamp="1583014148369">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="389" y="0" width="586" height="728" key="find.popup/0.0.1364.728@0.0.1364.728" timestamp="1583014148369" />
     <state x="424" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582380605423">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="424" y="0" key="refactoring.ChangeSignatureDialog/0.0.1364.728@0.0.1364.728" timestamp="1582380605423" />
-    <state x="338" y="162" key="run.anything.popup" timestamp="1581857068849">
+    <state x="338" y="162" key="run.anything.popup" timestamp="1583007997852">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="338" y="162" key="run.anything.popup/0.0.1364.728@0.0.1364.728" timestamp="1581857068849" />
-    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582405796389">
+    <state x="338" y="162" key="run.anything.popup/0.0.1364.728@0.0.1364.728" timestamp="1583007997852" />
+    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583065785626">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1582405796389" />
+    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1583065785626" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BattleDroid$WeaponAndAmmunitionTest.ic" NAME="WeaponAndAmmunitionTest Coverage Results" MODIFIED="1583013826760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BattleDroid$unittest.ic" NAME="unittest Coverage Results" MODIFIED="1583014319877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BattleDroid$BattleDroidModelTest.ic" NAME="BattleDroidModelTest Coverage Results" MODIFIED="1583015560649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unittest.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,4 +1,7 @@
-package ua.external.lab.droids;
+package ua.external.lab.mvc;
+
+import ua.external.lab.droids.*;
+
 public class BattleDroidModel {
     Droid first;
     Droid second;
@@ -60,6 +63,7 @@ public class BattleDroidModel {
             return "continue";
         }
     }
+
     public int repairDroid(Droid droid) {
         if (droid.getHealth() != 0 && droid.getProtection() == 0 && droid.repair() !=0) {
             if((droid.getHealthWithAmmunition() - droid.getHealth()) >= droid.repairYourSelf.repair()){
@@ -73,6 +77,7 @@ public class BattleDroidModel {
         }else
             return 0;
     }
+
 }
 
 

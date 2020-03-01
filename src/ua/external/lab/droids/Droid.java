@@ -1,16 +1,20 @@
 package ua.external.lab.droids;
 
 import ua.external.lab.repairable.RepairAble;
+import ua.external.lab.weaponAndAmmunition.AmmunitionAble;
+import ua.external.lab.weaponAndAmmunition.WeaponAble;
 
 import java.util.List;
 
-abstract class Droid {
+public abstract class Droid {
     private int health;
     private int impact;
     private int protection;
     private String name;
     private int healthWithAmmunition;
-    RepairAble repairYourSelf;
+    public RepairAble repairYourSelf;
+    public WeaponAble weapon;
+    public AmmunitionAble ammunition;
 
     public Droid(int[] arr, String name ) {
         this.health = arr[0];
@@ -18,7 +22,40 @@ abstract class Droid {
         this.protection = arr[2];
         this.name = name;
     }
-    public abstract void WeaponsAndAmmunition();
+
+    public WeaponAble getWeapon() {
+        return weapon;
+    }
+
+    public AmmunitionAble getAmmunition() {
+        return ammunition;
+    }
+
+    public Droid setWeapon(WeaponAble weapon) {
+        this.weapon = weapon;
+        return this;
+    }
+
+    public String getWeaponName() {
+        return weapon.name();
+    }
+
+    public int getWeaponImpact() {
+        return weapon.impact();
+    }
+
+    public Droid setAmmunition(AmmunitionAble ammunition) {
+        this.ammunition= ammunition;
+        return this;
+    }
+
+    public String getAmmunitionName() {
+        return ammunition.name();
+    }
+
+    public int getAmmunitionProtect() {
+        return ammunition.protect();
+    }
 
     public int getHealth() {
         return health;
@@ -66,8 +103,6 @@ abstract class Droid {
     public void saveHealth(){
         healthWithAmmunition = health;
     }
-
-    public abstract List<String> getListWeaponsAndAmmunition();
 
     public int repair(){
        return repairYourSelf.repair();

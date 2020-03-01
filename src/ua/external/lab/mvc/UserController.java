@@ -1,4 +1,7 @@
-package ua.external.lab.droids;
+package ua.external.lab.mvc;
+
+import ua.external.lab.droids.CheckInput;
+import ua.external.lab.droids.Droid;
 
 public class UserController implements CheckInput {
     private ViewBattleDroid viewGameProcess;
@@ -19,13 +22,10 @@ public class UserController implements CheckInput {
             return true;
         }
         viewGameProcess.printBattle(first, second);
-        viewGameProcess.printBaseParameters(first, second);
-        first.WeaponsAndAmmunition();
-        first.saveHealth();
-        second.WeaponsAndAmmunition();
-        second.saveHealth();
-        viewGameProcess.printWeaponsAndAmmunition(first, second);
-        viewGameProcess.printFinalParameters(first, second);
+        viewGameProcess.printParameters(first);
+        printWeaponsAndAmmunition(first);
+        viewGameProcess.printParameters(second);
+        printWeaponsAndAmmunition(second);
         do{
             viewGameProcess.printRound(i);
             if (i%2 != 0) {
@@ -44,13 +44,28 @@ public class UserController implements CheckInput {
     public void attackController (Droid first, Droid second) {
         viewGameProcess.printAttackDroid(first);
         modelImplementation.droidAttack(first, second);
-        viewGameProcess.printInjuries(second);
+        viewGameProcess.printMessage(ViewConstant.DAMAGE);
+        viewGameProcess.printParameters(second);
     }
+
     public void repairDroid(Droid droid){
         int resultRepair = modelImplementation.repairDroid(droid);
         if (resultRepair != 0){
             viewGameProcess.printRepair(droid, resultRepair);
             viewGameProcess.printParameters(droid);
         }
+    }
+    public void printWeaponsAndAmmunition(Droid droid){
+        if(droid.getWeapon()!=null ||droid.getAmmunition()!=null) {
+            viewGameProcess.printMessage(ViewConstant.WEAPONS_AND_AMMUNITION);
+        }
+        if(droid.getWeapon()!=null){
+            viewGameProcess.printMessage(droid.getWeaponName());
+        }
+        if(droid.getAmmunition()!=null){
+            viewGameProcess.printMessage(droid.getAmmunitionName());
+        }
+        viewGameProcess.print("\n");
+
     }
 }

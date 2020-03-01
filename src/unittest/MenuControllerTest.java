@@ -2,13 +2,11 @@ package unittest;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ua.external.lab.droids.AdminController;
-import ua.external.lab.droids.UserController;
-import ua.external.lab.droids.ViewBattleDroid;
+import ua.external.lab.mvc.AdminController;
+import ua.external.lab.mvc.UserController;
+import ua.external.lab.mvc.ViewBattleDroid;
 import ua.external.lab.registrarion.Helper;
 import ua.external.lab.registrarion.MenuController;
-
-import static org.junit.Assert.*;
 
 public class MenuControllerTest {
     ViewBattleDroid viewGameProcess;

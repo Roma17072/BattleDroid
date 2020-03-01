@@ -1,4 +1,6 @@
-package ua.external.lab.droids;
+package ua.external.lab.mvc;
+import ua.external.lab.droids.Droid;
+
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -33,21 +35,10 @@ public class ViewBattleDroid extends ViewConstant {
         System.out.println(message);
     }
 
-    public void printBaseParameters(Droid first, Droid second) {
-        print(bundle.getString(BASE_PARAMETERS) + "Name " + first.getName() + first + "\n"
-                    + "Name " + second.getName()+ second + "\n");
-    }
-
-    public void printWeaponsAndAmmunition(Droid first, Droid second) {
-        print(first.getName() + bundle.getString(WEAPONS_AND_AMMUNITION) + "\n"
-                + first.getListWeaponsAndAmmunition() + "\n"
-                + second.getName() + bundle.getString(WEAPONS_AND_AMMUNITION) + "\n"
-                + second.getListWeaponsAndAmmunition() + "\n");
-    }
-
-    public void printFinalParameters(Droid first, Droid second) {
-        print(bundle.getString(FINAL_PARAMETERS) + first.getName() + first + "\n"
-                     + second.getName()+ second + "\n");
+    public void printBaseParameters(String name, int[] description) {
+        print(name + "\n" +  bundle.getString(HEALTH) + " " + description[0]
+                + " " +  bundle.getString(IMPACT) + " " + description[1]
+                + " " +  bundle.getString(PROTECTION) + " " + description[2]);
     }
 
     public void printAttackDroid(Droid droid) {
@@ -58,16 +49,14 @@ public class ViewBattleDroid extends ViewConstant {
         print("\n" +bundle.getString(ROUND) + i );
     }
 
-    public void printInjuries(Droid droid) {
-        print(droid.getName() + bundle.getString(INJURIES) + droid);
+    public void printParameters(Droid droid) {
+        print(droid.getName() + " " + bundle.getString(HEALTH)  + " " + droid.getHealth()
+                + " " + bundle.getString(IMPACT) + " " + droid.getImpact()
+                + " " + bundle.getString(PROTECTION) + " " + droid.getProtection() );
     }
 
     public void printRepair(Droid droid, int i) {
         print(droid.getName()+ bundle.getString(REPAIR) + i);
-    }
-
-    public void printParameters (Droid droid) {
-        print(droid.getName() + droid);
     }
 
     public void printWinner(String droid){
@@ -80,7 +69,7 @@ public class ViewBattleDroid extends ViewConstant {
     }
 
     public void printChooseDroids(String droid) {
-        print(droid + bundle.getString(CHOOSE_DROID));
+        print(bundle.getString(droid) + bundle.getString(CHOOSE_DROID));
     }
 
 }

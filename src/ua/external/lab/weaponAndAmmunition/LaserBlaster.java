@@ -1,6 +1,15 @@
 package ua.external.lab.weaponAndAmmunition;
 
-public interface LaserBlaster {
-    String name = "Laser Blaster";
-    int laserBlasterImpact = 5;
+import ua.external.lab.mvc.ViewConstant;
+
+public class LaserBlaster implements WeaponAble {
+    @Override
+    public String name() {
+        return ViewConstant.LASER_BLASTER;
+    }
+
+    @Override
+    public int impact() {
+        return 17;
+    }
 }

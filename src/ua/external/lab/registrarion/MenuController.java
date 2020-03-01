@@ -1,16 +1,16 @@
 package ua.external.lab.registrarion;
 
-import ua.external.lab.droids.AdminController;
+import ua.external.lab.mvc.AdminController;
 import ua.external.lab.droids.CheckInput;
-import ua.external.lab.droids.UserController;
-import ua.external.lab.droids.ViewBattleDroid;
+import ua.external.lab.mvc.UserController;
+import ua.external.lab.mvc.ViewBattleDroid;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static ua.external.lab.droids.ViewBattleDroid.print;
-import static ua.external.lab.droids.ViewConstant.WRONG_LOGIN;
-import static ua.external.lab.droids.ViewConstant.WRONG_PASSWORD;
+import static ua.external.lab.mvc.ViewBattleDroid.print;
+import static ua.external.lab.mvc.ViewConstant.WRONG_LOGIN;
+import static ua.external.lab.mvc.ViewConstant.WRONG_PASSWORD;
 
 public class MenuController implements CheckInput {
     ViewBattleDroid viewGameProcess;

@@ -1,16 +1,8 @@
 package ua.external.lab.droids;
 
 import ua.external.lab.repairable.SuperRepair;
-import ua.external.lab.weaponAndAmmunition.Blaster;
-import ua.external.lab.weaponAndAmmunition.SimpleShield;
-import java.util.ArrayList;
-import java.util.List;
 
-public class Junior extends Droid implements SimpleShield, Blaster {
-
-
-
-    private List<String> listWeaponsAndAmmunition = new ArrayList<String>();
+public class Junior extends Droid implements liteDroid {
 
     public Junior(int[] arr, String name) {
         super(arr, name);
@@ -18,22 +10,13 @@ public class Junior extends Droid implements SimpleShield, Blaster {
     }
 
     @Override
-    public List<String> getListWeaponsAndAmmunition() {
-        return listWeaponsAndAmmunition;
+    public int range() {
+        return 1;
     }
-
-    @Override
-    public void WeaponsAndAmmunition() {
-        setImpact(getImpact()+blasterImpact);
-        listWeaponsAndAmmunition.add(Blaster.name);
-        setProtection(getProtection()+simpleShieldProtection);
-        listWeaponsAndAmmunition.add(SimpleShield.name);
-    }
-
-
 
     @Override
     public String toString() {
         return  super.toString();
     }
+
 }
