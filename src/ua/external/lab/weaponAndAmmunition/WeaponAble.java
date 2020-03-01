@@ -1,6 +1,8 @@
 package ua.external.lab.weaponAndAmmunition;
 
-public interface WeaponAble {
+import java.io.Serializable;
+
+public interface WeaponAble extends Serializable {
      String name();
      int impact();
 }

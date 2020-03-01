@@ -4,17 +4,18 @@ import ua.external.lab.repairable.RepairAble;
 import ua.external.lab.weaponAndAmmunition.AmmunitionAble;
 import ua.external.lab.weaponAndAmmunition.WeaponAble;
 
+import java.io.Serializable;
 import java.util.List;
 
-public abstract class Droid {
+public abstract class Droid implements Serializable {
     private int health;
     private int impact;
     private int protection;
     private String name;
     private int healthWithAmmunition;
     public RepairAble repairYourSelf;
-    public WeaponAble weapon;
-    public AmmunitionAble ammunition;
+    public  WeaponAble weapon;
+    public  AmmunitionAble ammunition;
 
     public Droid(int[] arr, String name ) {
         this.health = arr[0];
@@ -94,9 +95,11 @@ public abstract class Droid {
 
     @Override
     public String toString() {
-        return " {" + "health=" + health +
+        return "Droid{" +
+                "health=" + health +
                 ", impact=" + impact +
                 ", protection=" + protection +
+                ", name='" + name + '\'' +
                 '}';
     }
 
