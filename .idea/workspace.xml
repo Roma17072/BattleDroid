@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a88bdd4-9e56-4871-b2fd-b9b4f805a6e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Junior.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/droid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/DroidSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/serialize/SerializableAndDeserializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/serialize/SerializeToCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/droids/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/repairable/RepairAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/repairable/RepairAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/AmmunitionAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/AmmunitionAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/WeaponAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/WeaponAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/Droid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/Droid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/repairable/RepairAble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/repairable/RepairAble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/AmmunitionAble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/AmmunitionAble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/WeaponAble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/weaponAndAmmunition/WeaponAble.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,14 +195,22 @@
       <option name="project" value="LOCAL" />
       <updated>1583083916606</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BattleDroid with serialize">
+      <created>1583101031304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583101031305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="BattleDroid version6" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="BattleDroid with serialize" />
+    <option name="LAST_COMMIT_MESSAGE" value="BattleDroid with serialize" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="26" key="#Notifications" timestamp="1582408944434">
@@ -255,10 +250,10 @@
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="401" y="35" key="#unittest/0.0.1364.728@0.0.1364.728" timestamp="1583014011700" />
-    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2" timestamp="1583084006731">
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2" timestamp="1583101030555">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" timestamp="1583084006731" />
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" timestamp="1583101030555" />
     <state width="1321" height="285" key="GridCell.Tab.0.bottom" timestamp="1583100941522">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
