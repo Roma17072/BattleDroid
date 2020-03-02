@@ -1,8 +1,8 @@
 package ua.external.lab.mvc;
 
 import ua.external.lab.droids.*;
-
 import java.util.Arrays;
+
 
 public class DroidV6 {
     public static void main(String[] args) {
@@ -60,7 +60,5 @@ public class DroidV6 {
                 System.out.println(masLiteDroid[i].range());
             }
         }
-
-
     }
 }

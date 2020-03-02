@@ -1,0 +1,22 @@
+2020-03-02 14:06:13 ERROR  ua.exte.lab.log.log [main] error
+2020-03-02 14:06:13 DEBUG  ua.exte.lab.log.log [main] debug
+2020-03-02 14:43:08 INFO   ua.exte.lab.regi.MenuController [main] Input value more on less then limit
+2020-03-02 14:43:11 INFO   ua.exte.lab.regi.MenuController [main] Input value more on less then limit
+2020-03-02 14:43:58 ERROR  ua.exte.lab.regi.MenuController [main] Input wrong value
+2020-03-02 14:54:30 INFO   ua.exte.lab.mvc.AdminController [main] Input value more on less then limit
+2020-03-02 14:54:33 INFO   ua.exte.lab.mvc.AdminController [main] Input value more on less then limit
+2020-03-02 14:54:35 ERROR  ua.exte.lab.mvc.AdminController [main] Wrong input format 
+java.lang.NumberFormatException: For input string: "fff"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:658) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:776) ~[?:?]
+	at ua.external.lab.mvc.AdminController.check(AdminController.java:76) [classes/:?]
+	at ua.external.lab.mvc.AdminController.selectDroid(AdminController.java:59) [classes/:?]
+	at ua.external.lab.mvc.AdminController.selectOrRandom(AdminController.java:46) [classes/:?]
+	at ua.external.lab.mvc.AdminController.processAdmin(AdminController.java:40) [classes/:?]
+	at ua.external.lab.registrarion.MenuController.registrationOrAuthorization(MenuController.java:46) [classes/:?]
+	at ua.external.lab.mvc.BattleDroid.main(BattleDroid.java:18) [classes/:?]
+2020-03-02 14:54:46 INFO   ua.exte.lab.mvc.AdminController [main] Input value more on less then limit
+2020-03-02 14:57:06 INFO   ua.exte.lab.regi.MenuController [main] password does not match regex
+2020-03-02 14:57:10 INFO   ua.exte.lab.regi.MenuController [main] password does not match regex
+2020-03-02 14:57:17 INFO   ua.exte.lab.regi.MenuController [main] password does not match regex

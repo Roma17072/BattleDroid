@@ -1,7 +1,9 @@
 package ua.external.lab.mvc;
 
-import ua.external.lab.droids.CheckInput;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import ua.external.lab.droids.Description;
+import ua.external.lab.registrarion.MenuController;
 import ua.external.lab.weaponAndAmmunition.WeaponAndAmmunition;
 
 import java.io.BufferedReader;
@@ -19,6 +21,7 @@ public class AdminController implements CheckInput {
     final int MIN_DROID = 1;
     final int MAX_SELECT = 5;
     final int MIN_SELECT = 0;
+    Logger logger1 = LogManager.getLogger(AdminController.class);
 
     public AdminController(ViewBattleDroid viewGameProcess, BattleDroidModel modelImplementation, WeaponAndAmmunition weaponAndAmmunition) {
         this.viewGameProcess = viewGameProcess;
@@ -72,11 +75,14 @@ public class AdminController implements CheckInput {
             try {
                 value = Integer.parseInt(br.readLine());
                 if (value > max || value < min){
+                    logger1.info("Input value more on less then limit",value);
                     value = 0;
                     print(ViewBattleDroid.WRONG);
+
                 }
             } catch (NumberFormatException | IOException e) {
                 print(ViewBattleDroid.WRONG);
+                logger1.error("Wrong input format ",e);
             }
         }while (value == 0);
         return value;

@@ -1,7 +1,9 @@
 package ua.external.lab.registrarion;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import ua.external.lab.mvc.AdminController;
-import ua.external.lab.droids.CheckInput;
+import ua.external.lab.mvc.CheckInput;
 import ua.external.lab.mvc.UserController;
 import ua.external.lab.mvc.ViewBattleDroid;
 import java.io.BufferedReader;
@@ -21,6 +23,7 @@ public class MenuController implements CheckInput {
     private String login;
     private String password;
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    Logger logger1 = LogManager.getLogger(MenuController.class);
 
     public MenuController(ViewBattleDroid viewGameProcess, Helper modelMenu, AdminController adminController, UserController userController) {
         this.viewGameProcess = viewGameProcess;
@@ -82,9 +85,11 @@ public class MenuController implements CheckInput {
                     return true;
                 }else {
                     viewGameProcess.printMessage(ViewBattleDroid.LOGIN_EXIST);
+                    logger1.info("login already exist");
                 }
             } else {
                 viewGameProcess.printMessage(ViewBattleDroid.WRONG_INPUT);
+                logger1.info("login does not match regex");
             }
         return false;
     }
@@ -97,6 +102,7 @@ public class MenuController implements CheckInput {
                 password = text;
                 return true;
             } else {
+                logger1.info("password does not match regex");
                 viewGameProcess.printMessage(ViewBattleDroid.WRONG_INPUT);
                 viewGameProcess.printMessage(ViewBattleDroid.CREATE_PASSWORD);
             }
@@ -116,6 +122,7 @@ public class MenuController implements CheckInput {
             return (br.readLine());
         } catch (IOException e) {
             viewGameProcess.printMessage(viewGameProcess.WRONG_INPUT);
+            logger1.info("wrong input authorization", e);
         }
      return null;
     }

@@ -1,11 +1,15 @@
 package ua.external.lab.mvc;
 
-import ua.external.lab.droids.CheckInput;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import ua.external.lab.droids.Droid;
+
 
 public class UserController implements CheckInput {
     private ViewBattleDroid viewGameProcess;
     private BattleDroidModel modelImplementation;
+
+    Logger logger1 = LogManager.getLogger(UserController.class);
 
     public UserController(ViewBattleDroid viewGameProcess, BattleDroidModel modelImplementation) {
         this.viewGameProcess = viewGameProcess;
@@ -19,6 +23,7 @@ public class UserController implements CheckInput {
         Droid second = modelImplementation.getSecond();
         if (first == null && second == null){
             viewGameProcess.printMessage(ViewBattleDroid.FAIL);
+            logger1.error("Some of droids is null");
             return true;
         }
         viewGameProcess.printBattle(first, second);
