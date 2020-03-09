@@ -2,51 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a88bdd4-9e56-4871-b2fd-b9b4f805a6e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/test-yaml.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESOURCE/archivelog/battleLog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESOURCE/droid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESOURCE/droid.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/droids.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleDroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BattleDroid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Password.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/droids/CheckInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/CheckInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junior.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESOURCE/profile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/droid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test-yaml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/META-INF/BattleDroid.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/BattleDroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/BattleDroidModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/CheckInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/CombatantDroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Description.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Droid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Junior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/NotRepair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/RepairAble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleDroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SimpleRepair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/SuperRepair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/Terminator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/ViewBattleDroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/droids/ViewConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/registrarion/Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/registrarion/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/weaponAndAmmunition/ArmoredShield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/weaponAndAmmunition/Blaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/weaponAndAmmunition/LaserBlaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/weaponAndAmmunition/RocketBlaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleDroid/ua/external/lab/weaponAndAmmunition/SimpleShield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RESOURCE/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RESOURCE/property/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/text_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RESOURCE/property/text_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/text_uk_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RESOURCE/property/text_uk_UA.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/DroidV6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/DroidV6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/BattleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/BattleDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/BattleDroidModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/BattleDroidModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/DroidSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/DroidSerializable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/ViewBattleDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/ViewBattleDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/mvc/ViewConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/mvc/ViewConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/registrarion/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/droids/CheckInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/serialize/SerializableAndDeserializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/serialize/SerializableAndDeserializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/serialize/SerializeToCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/serialize/SerializeToCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/WeaponAndAmmunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/lab/weaponAndAmmunition/WeaponAndAmmunition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/BattleDroidModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unittest/BattleDroidModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/CombatantDroidTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/JuniorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/MenuControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unittest/MenuControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/SimpleDroidTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/TerminatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/WeaponAndAmmunitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unittest/WeaponAndAmmunitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BattleDroid.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BattleDroid.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/property/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/property/text_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/text_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/property/text_uk_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/text_uk_UA.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/DroidV6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/DroidV6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/BattleDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/BattleDroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/BattleDroidModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/BattleDroidModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/DroidSerializable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/DroidSerializable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/ViewBattleDroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/ViewBattleDroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/ViewConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/mvc/ViewConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/registrarion/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/registrarion/Helper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/registrarion/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/registrarion/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unittest/WeaponAndAmmunitionTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/unittest/WeaponAndAmmunitionTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/serialize/SerializableAndDeserializable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/serialize/SerializableAndDeserializable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/external/lab/serialize/SerializeToCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/external/lab/serialize/SerializeToCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/BattleDroidModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/CombatantDroidTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/JuniorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/MenuControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/SimpleDroidTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/TerminatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/WeaponAndAmmunitionTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/unittest/WeaponAndAmmunitionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ua/archivelog/battle.log" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="74" />
+    <option name="myElementSize" value="99" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BattleDroid" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="UML Sequence" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="BattleDroidVer8" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -81,27 +178,35 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowsimpleUML.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaGame" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="unittest" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
       <recent name="ua.external.lab.serialize" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JC\BattleDroid\RESOURCE\archivelog" />
+      <recent name="D:\JC\BattleDroid\RESOURCE" />
+      <recent name="D:\JC\BattleDroid\src" />
+      <recent name="D:\JC\BattleDroid" />
+      <recent name="D:\JC\BattleDroid\RESOURSE" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ua.external.lab" />
@@ -109,12 +214,21 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JC\BattleDroid\src\ua\external\lab" />
-      <recent name="D:\JC\BattleDroid\src" />
-      <recent name="D:\JC\BattleDroid\src\ua\external\lab\log" />
-      <recent name="D:\JC\BattleDroid" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ua.external.lab.serialize" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.BattleDroid">
     <configuration name="BattleDroid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -143,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroidV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.external.lab.mvc.DroidV6" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.external.lab.mvc.Person" />
       <module name="BattleDroid" />
       <extension name="coverage">
         <pattern>
@@ -156,15 +270,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.external.lab.log.log" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.external.lab.mvc.Program" />
       <module name="BattleDroid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.external.lab.log.*" />
+          <option name="PATTERN" value="ua.external.lab.mvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleDroidModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BattleDroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unittest" />
+      <option name="MAIN_CLASS_NAME" value="unittest.BattleDroidModelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,23 +309,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/JC/BattleDroid/src/ua/external/lab/Resources/log4j2.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BattleDroid" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/ua/external/lab/Resources/log4j2.yaml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BattleDroid" />
-        <item itemvalue="Application.DroidV6" />
-        <item itemvalue="Application.log" />
-        <item itemvalue="TestNG.D:/JC/BattleDroid/src/ua/external/lab/Resources/log4j2.yaml" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.DroidSerializable" />
+        <item itemvalue="JUnit.BattleDroidModelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +332,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581260084045</updated>
+      <workItem from="1583236996351" duration="1389000" />
+      <workItem from="1583238557944" duration="1317000" />
+      <workItem from="1583247556668" duration="6791000" />
+      <workItem from="1583328296042" duration="34613000" />
+      <workItem from="1583482817653" duration="22783000" />
     </task>
     <task id="LOCAL-00001" summary="BattleDroid version6">
       <created>1583083731285</created>
@@ -235,174 +359,141 @@
       <option name="project" value="LOCAL" />
       <updated>1583101031305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BattleDroid with Log">
+      <created>1583164837598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583164837598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="BattleDroid version6" />
     <MESSAGE value="first commit" />
     <MESSAGE value="BattleDroid with serialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="BattleDroid with serialize" />
+    <MESSAGE value="BattleDroid with Log" />
+    <option name="LAST_COMMIT_MESSAGE" value="BattleDroid with Log" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="32" key="#All_in_BattleDroid" timestamp="1583104788808">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="285" y="32" key="#All_in_BattleDroid/0.0.1364.728@0.0.1364.728" timestamp="1583104788808" />
-    <state x="274" y="26" key="#Notifications" timestamp="1582408944434">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="274" y="26" key="#Notifications/0.0.1364.728@0.0.1364.728" timestamp="1582408944434" />
-    <state x="386" y="37" key="#Project_Structure" timestamp="1583138281751">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="274" y="26" key="#Project_Structure/0.0.1364.728@0.0.1364.728" timestamp="1583105163014" />
-    <state x="386" y="37" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583138281751" />
-    <state x="441" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583087524010">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="441" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1364.728@0.0.1364.728" timestamp="1583087524010" />
-    <state x="788" y="367" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1583162593951">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="788" y="367" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1920.1040@0.0.1920.1040" timestamp="1583162593951" />
-    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1583096101219">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1583096101219" />
-    <state x="686" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581347912436" />
-    <state x="412" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583104783073">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="412" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1364.728@0.0.1364.728" timestamp="1583104783073" />
-    <state x="419" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583104732714">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="419" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1364.728@0.0.1364.728" timestamp="1583104732714" />
-    <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582379755576">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1364.728@0.0.1364.728" timestamp="1582379755576" />
-    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583069934719">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1364.728@0.0.1364.728" timestamp="1583069934719" />
-    <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583086672154">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1364.728@0.0.1364.728" timestamp="1583086672154" />
-    <state x="504" y="61" key="#toString()_Generation_Settings" timestamp="1581342889195">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="504" y="61" key="#toString()_Generation_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1581342889195" />
-    <state x="401" y="35" key="#unittest" timestamp="1583104517844">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="401" y="35" key="#unittest/0.0.1364.728@0.0.1364.728" timestamp="1583104517844" />
-    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2" timestamp="1583101030555">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" timestamp="1583101030555" />
-    <state x="500" y="120" key="FileChooserDialogImpl" timestamp="1583164196608">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="500" y="120" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583164196608" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1583153133480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="147" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1583109921689" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583153133480" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1583153133480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="147" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1583109921689" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583153133480" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1583153133480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="147" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1583109921689" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583153133480" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1583153133480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="147" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1583109921689" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583153133480" />
-    <state width="1877" height="446" key="GridCell.Tab.1.bottom" timestamp="1583148968946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="289" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" timestamp="1583109213963" />
-    <state width="1877" height="446" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583148968946" />
-    <state width="1877" height="446" key="GridCell.Tab.1.center" timestamp="1583148968946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="289" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" timestamp="1583109213963" />
-    <state width="1877" height="446" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583148968946" />
-    <state width="1877" height="446" key="GridCell.Tab.1.left" timestamp="1583148968946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="289" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" timestamp="1583109213962" />
-    <state width="1877" height="446" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583148968946" />
-    <state width="1877" height="446" key="GridCell.Tab.1.right" timestamp="1583148968946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1321" height="289" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" timestamp="1583109213963" />
-    <state width="1877" height="446" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583148968946" />
-    <state x="212" y="23" key="Maven.ArtifactSearchDialog" timestamp="1583109313767">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="212" y="23" key="Maven.ArtifactSearchDialog/0.0.1364.728@0.0.1364.728" timestamp="1583109313767" />
-    <state x="552" y="182" key="PlantUMLSettings" timestamp="1583164151923">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="182" key="PlantUMLSettings/0.0.1920.1040@0.0.1920.1040" timestamp="1583164151923" />
-    <state x="228" y="0" key="SettingsEditor" timestamp="1583164788219">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="162" y="0" key="SettingsEditor/0.0.1364.728@0.0.1364.728" timestamp="1583104721342" />
-    <state x="228" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583164788219" />
-    <state x="274" y="101" key="Vcs.Push.Dialog.v2" timestamp="1583084012969">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="274" y="101" key="Vcs.Push.Dialog.v2/0.0.1364.728@0.0.1364.728" timestamp="1583084012969" />
-    <state x="92" y="92" width="1180" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583101829887">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="92" y="92" width="1180" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1364.728@0.0.1364.728" timestamp="1583101829887" />
-    <state x="549" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1583164558436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1364.728@0.0.1364.728" timestamp="1583109276974" />
-    <state x="549" y="276" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583164558436" />
-    <state x="543" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583138236540">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="386" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1364.728@0.0.1364.728" timestamp="1582966748133" />
-    <state x="543" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1583138236540" />
-    <state x="435" y="97" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583011217353">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="435" y="97" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1364.728@0.0.1364.728" timestamp="1583011217353" />
-    <state x="389" y="0" width="586" height="728" key="find.popup" timestamp="1583014148369">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="389" y="0" width="586" height="728" key="find.popup/0.0.1364.728@0.0.1364.728" timestamp="1583014148369" />
-    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1583164676671">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1920.1040@0.0.1920.1040" timestamp="1583164676671" />
-    <state x="424" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582380605423">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="424" y="0" key="refactoring.ChangeSignatureDialog/0.0.1364.728@0.0.1364.728" timestamp="1582380605423" />
-    <state x="338" y="162" key="run.anything.popup" timestamp="1583007997852">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="338" y="162" key="run.anything.popup/0.0.1364.728@0.0.1364.728" timestamp="1583007997852" />
-    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583065785626">
-      <screen x="0" y="0" width="1364" height="728" />
-    </state>
-    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1583065785626" />
+    <state x="285" y="32" key="#All_in_BattleDroid" />
+    <state x="285" y="32" key="#All_in_BattleDroid/0.0.1364.728@0.0.1364.728" />
+    <state x="274" y="26" key="#Notifications" />
+    <state x="274" y="26" key="#Notifications/0.0.1364.728@0.0.1364.728" />
+    <state x="386" y="37" key="#Project_Structure" />
+    <state x="274" y="26" key="#Project_Structure/0.0.1364.728@0.0.1364.728" />
+    <state x="386" y="37" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" />
+    <state x="441" y="175" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="441" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1364.728@0.0.1364.728" />
+    <state x="788" y="367" key="#com.intellij.ide.actions.DebugLogConfigureAction" />
+    <state x="788" y="367" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1920.1040@0.0.1920.1040" />
+    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="487" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" />
+    <state x="686" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" />
+    <state x="412" y="145" key="#com.intellij.ide.util.PackageChooserDialog" />
+    <state x="412" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="419" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" />
+    <state x="419" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" />
+    <state x="483" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1364.728@0.0.1364.728" />
+    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" />
+    <state x="303" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="412" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="504" y="61" key="#toString()_Generation_Settings" />
+    <state x="504" y="61" key="#toString()_Generation_Settings/0.0.1920.1040@0.0.1920.1040" />
+    <state x="401" y="35" key="#unittest" />
+    <state x="401" y="35" key="#unittest/0.0.1364.728@0.0.1364.728" />
+    <state x="400" y="43" width="672" height="598" key="CommitChangelistDialog2" />
+    <state x="284" y="30" width="672" height="598" key="CommitChangelistDialog2/0.0.1364.728@0.0.1364.728" />
+    <state x="400" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" />
+    <state x="355" y="84" key="FileChooserDialogImpl" />
+    <state x="355" y="84" key="FileChooserDialogImpl/0.0.1364.728@0.0.1364.728" />
+    <state x="500" y="120" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1321" height="102" key="GridCell.Tab.0.bottom" />
+    <state width="1321" height="102" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" />
+    <state width="1340" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1321" height="102" key="GridCell.Tab.0.center" />
+    <state width="1321" height="102" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" />
+    <state width="1340" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1321" height="102" key="GridCell.Tab.0.left" />
+    <state width="1321" height="102" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" />
+    <state width="1340" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1321" height="102" key="GridCell.Tab.0.right" />
+    <state width="1321" height="102" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" />
+    <state width="1340" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="446" key="GridCell.Tab.1.bottom" />
+    <state width="1321" height="289" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" />
+    <state width="1877" height="446" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="446" key="GridCell.Tab.1.center" />
+    <state width="1321" height="289" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" />
+    <state width="1877" height="446" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="446" key="GridCell.Tab.1.left" />
+    <state width="1321" height="289" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" />
+    <state width="1877" height="446" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="446" key="GridCell.Tab.1.right" />
+    <state width="1321" height="289" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" />
+    <state width="1877" height="446" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" />
+    <state x="212" y="23" key="Maven.ArtifactSearchDialog" />
+    <state x="212" y="23" key="Maven.ArtifactSearchDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="552" y="182" key="PlantUMLSettings" />
+    <state x="552" y="182" key="PlantUMLSettings/0.0.1920.1040@0.0.1920.1040" />
+    <state x="228" y="0" key="SettingsEditor" />
+    <state x="162" y="0" key="SettingsEditor/0.0.1364.728@0.0.1364.728" />
+    <state x="228" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" />
+    <state x="386" y="144" key="Vcs.Push.Dialog.v2" />
+    <state x="274" y="101" key="Vcs.Push.Dialog.v2/0.0.1364.728@0.0.1364.728" />
+    <state x="386" y="144" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" />
+    <state x="92" y="92" width="1180" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" />
+    <state x="92" y="92" width="1180" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="549" y="276" key="com.intellij.ide.util.TipDialog" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="549" y="276" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="543" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" />
+    <state x="386" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1364.728@0.0.1364.728" />
+    <state x="543" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" />
+    <state x="830" y="123" width="458" height="542" key="com.intellij.testIntegration.createTest.CreateTestDialog" />
+    <state x="830" y="123" width="458" height="542" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="389" y="0" width="586" height="728" key="find.popup" />
+    <state x="389" y="0" width="586" height="728" key="find.popup/0.0.1364.728@0.0.1364.728" />
+    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame" />
+    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1920.1040@0.0.1920.1040" />
+    <state x="424" y="0" key="refactoring.ChangeSignatureDialog" />
+    <state x="424" y="0" key="refactoring.ChangeSignatureDialog/0.0.1364.728@0.0.1364.728" />
+    <state x="476" y="231" key="run.anything.popup" />
+    <state x="338" y="162" key="run.anything.popup/0.0.1364.728@0.0.1364.728" />
+    <state x="476" y="231" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" />
+    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup" />
+    <state x="345" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/external/lab/registrarion/MenuController.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BattleDroid$WeaponAndAmmunitionTest.ic" NAME="WeaponAndAmmunitionTest Coverage Results" MODIFIED="1583013826760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -411,10 +502,10 @@
     <SUITE FILE_PATH="coverage/BattleDroid$unittest.ic" NAME="unittest Coverage Results" MODIFIED="1583014319877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>unittest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/BattleDroid$unittest_in_BattleDroid.ic" NAME="unittest in BattleDroid Coverage Results" MODIFIED="1583270467875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BattleDroid$BattleDroidModelTest.ic" NAME="BattleDroidModelTest Coverage Results" MODIFIED="1583015560649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>unittest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BattleDroid$unittest_in_BattleDroid.ic" NAME="unittest in BattleDroid Coverage Results" MODIFIED="1583104812920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

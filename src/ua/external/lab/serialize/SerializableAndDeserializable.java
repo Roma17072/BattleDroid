@@ -10,9 +10,9 @@ public class SerializableAndDeserializable {
             oos.writeObject(droid);
             return true;
         } catch (FileNotFoundException e) {
-            System.err.println("Файл не может быть создан: " + e);
+            System.err.println("File can't be created: " + e);
         } catch (NotSerializableException e) {
-            System.err.println("Класс не поддерживает сериализацию: " + e);
+            System.err.println("Class can't be serialize: " + e);
         } catch (IOException e) {
             System.err.println(e);
         }

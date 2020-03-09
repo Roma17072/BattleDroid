@@ -41,4 +41,5 @@ public class ViewConstant {
     public static final String PROTECTION = "droid.protection";
     public static final String FIRST = "droid.first";
     public static final String SECOND = "droid.second";
+    public static final String WRONG_AUTHENTICATION= "menu.authentication";
 }

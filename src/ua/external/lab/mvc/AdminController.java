@@ -3,7 +3,6 @@ package ua.external.lab.mvc;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ua.external.lab.droids.Description;
-import ua.external.lab.registrarion.MenuController;
 import ua.external.lab.weaponAndAmmunition.WeaponAndAmmunition;
 
 import java.io.BufferedReader;
@@ -30,13 +29,13 @@ public class AdminController implements CheckInput {
     }
 
     public boolean processAdmin(){
-        viewGameProcess.printMessage(ViewBattleDroid.WELCOME);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.WELCOME);
         viewGameProcess.printBaseParameters("Junior", Description.descriptionJuniorDroid);
         viewGameProcess.printBaseParameters("Simple Droid", Description.descriptionSimpleDroid);
         viewGameProcess.printBaseParameters("Combatant Droid", Description.descriptionCombatantDroid);
         viewGameProcess.printBaseParameters("Terminator", Description.descriptionTerminator);
         viewGameProcess.print("\n");
-        viewGameProcess.printMessage(ViewBattleDroid.SELECT_OR_RANDOM);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.SELECT_OR_RANDOM);
         selectOrRandom(CheckInput.checkInput(br));
         return true;
     }
@@ -57,15 +56,15 @@ public class AdminController implements CheckInput {
     private void selectDroid(){
         viewGameProcess.printChooseDroids(ViewConstant.FIRST);
         modelImplementation.setFirst(modelImplementation.chooseDroids(check(br, MIN_DROID, MAX_DROID)));
-        viewGameProcess.printMessage(ViewBattleDroid.SELECT_WEAPON);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.SELECT_WEAPON);
         weaponAndAmmunition.weapon(modelImplementation.getFirst(),check(br,MIN_SELECT, MAX_SELECT));
-        viewGameProcess.printMessage(ViewBattleDroid.SELECT_AMMUNITION);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.SELECT_AMMUNITION);
         weaponAndAmmunition.ammunition(modelImplementation.getFirst(),check(br,MIN_SELECT, MAX_SELECT));
         viewGameProcess.printChooseDroids(ViewConstant.SECOND);
         modelImplementation.setSecond(modelImplementation.chooseDroids(check(br, MIN_DROID, MAX_DROID)));
-        viewGameProcess.printMessage(ViewBattleDroid.SELECT_WEAPON);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.SELECT_WEAPON);
         weaponAndAmmunition.weapon(modelImplementation.getSecond(),check(br,MIN_SELECT, MAX_SELECT));
-        viewGameProcess.printMessage(ViewBattleDroid.SELECT_AMMUNITION);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.SELECT_AMMUNITION);
         weaponAndAmmunition.ammunition(modelImplementation.getSecond(),check(br,MIN_SELECT, MAX_SELECT));
     }
 

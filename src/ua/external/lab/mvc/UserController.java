@@ -18,11 +18,11 @@ public class UserController implements CheckInput {
 
     public boolean processUser() {
         int i = 1;
-        viewGameProcess.printMessage(ViewBattleDroid.WELCOME);
+        viewGameProcess.printMessageBundle(ViewBattleDroid.WELCOME);
         Droid first = modelImplementation.getFirst();
         Droid second = modelImplementation.getSecond();
         if (first == null && second == null){
-            viewGameProcess.printMessage(ViewBattleDroid.FAIL);
+            viewGameProcess.printMessageBundle(ViewBattleDroid.FAIL);
             logger1.error("Some of droids is null");
             return true;
         }
@@ -49,7 +49,7 @@ public class UserController implements CheckInput {
     public void attackController (Droid first, Droid second) {
         viewGameProcess.printAttackDroid(first);
         modelImplementation.droidAttack(first, second);
-        viewGameProcess.printMessage(ViewConstant.DAMAGE);
+        viewGameProcess.printMessageBundle(ViewConstant.DAMAGE);
         viewGameProcess.printParameters(second);
     }
 
@@ -62,13 +62,13 @@ public class UserController implements CheckInput {
     }
     public void printWeaponsAndAmmunition(Droid droid){
         if(droid.getWeapon()!=null ||droid.getAmmunition()!=null) {
-            viewGameProcess.printMessage(ViewConstant.WEAPONS_AND_AMMUNITION);
+            viewGameProcess.printMessageBundle(ViewConstant.WEAPONS_AND_AMMUNITION);
         }
         if(droid.getWeapon()!=null){
-            viewGameProcess.printMessage(droid.getWeaponName());
+            viewGameProcess.printMessageBundle(droid.getWeaponName());
         }
         if(droid.getAmmunition()!=null){
-            viewGameProcess.printMessage(droid.getAmmunitionName());
+            viewGameProcess.printMessageBundle(droid.getAmmunitionName());
         }
         viewGameProcess.print("\n");
 

@@ -17,7 +17,7 @@ public class SerializeToCSV {
         writer.flush();
         writer.close();
     }
-    public static Droid readFromFile(String fileName) throws IOException {
+    public static Droid deserializeFromFile(String fileName) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(fileName));
         String str = reader.readLine();
         String[] elems = str.split(";");

@@ -2,6 +2,9 @@ package ua.external.lab.weaponAndAmmunition;
 
 import ua.external.lab.droids.Droid;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class WeaponAndAmmunition  {
     //Weapon factory
     public void weapon (Droid droid, int i){

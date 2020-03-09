@@ -27,7 +27,7 @@ public class ViewBattleDroid extends ViewConstant {
         bundle = ResourceBundle.getBundle(MESSAGES_BUNDLE_NAME, current);
     }
 
-    public void printMessage(String message) {
+    public void printMessageBundle(String message) {
         System.out.println(bundle.getString(message));
     }
 

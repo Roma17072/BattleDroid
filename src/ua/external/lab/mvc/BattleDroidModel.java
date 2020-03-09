@@ -1,10 +1,13 @@
 package ua.external.lab.mvc;
 
 import ua.external.lab.droids.*;
+import java.util.*;
 
 public class BattleDroidModel {
     Droid first;
     Droid second;
+    Map<Integer, Droid> factoryDroid = new HashMap<Integer, Droid>();
+
 
     public Droid getFirst() {
         return first;
@@ -27,17 +30,11 @@ public class BattleDroidModel {
 //Droid Factory
     public Droid chooseDroids(int i) {
         int n = 0;
-        switch (i) {
-            case 1:
-                return new Junior(Description.descriptionJuniorDroid, "Junior" + ++n);
-            case 2:
-                return new SimpleDroid(Description.descriptionSimpleDroid, "Simple Droid" + ++n);
-            case 3:
-                return new CombatantDroid(Description.descriptionCombatantDroid, "CombatantDroid" + ++n);
-            case 4:
-                return new Terminator(Description.descriptionTerminator, "Terminator" + ++n);
-        }
-        return null;
+        factoryDroid.put(1, new Junior(Description.descriptionJuniorDroid, "Junior"+ ++n));
+        factoryDroid.put(2,new SimpleDroid(Description.descriptionSimpleDroid,"Simple Droid"+ ++n));
+        factoryDroid.put(3,new CombatantDroid(Description.descriptionCombatantDroid, "CombatantDroid"+ ++n));
+        factoryDroid.put(4,new Terminator(Description.descriptionTerminator, "Terminator"+ ++n));
+        return factoryDroid.get(i);
     }
 
     public void droidAttack(Droid first, Droid second) {

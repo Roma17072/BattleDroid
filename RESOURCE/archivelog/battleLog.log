@@ -1,0 +1,42 @@
+2020-03-02 14:06:13 ERROR  ua.exte.lab.log.log [main] error
+2020-03-02 14:06:13 DEBUG  ua.exte.lab.log.log [main] debug
+2020-03-02 14:43:08 INFO   ua.exte.lab.regi.MenuController [main] Input value more on less then limit
+2020-03-02 14:43:11 INFO   ua.exte.lab.regi.MenuController [main] Input value more on less then limit
+2020-03-02 14:43:58 ERROR  ua.exte.lab.regi.MenuController [main] Input wrong value
+2020-03-02 14:54:30 INFO   ua.exte.lab.mvc.AdminController [main] Input value more on less then limit
+2020-03-02 14:54:33 INFO   ua.exte.lab.mvc.AdminController [main] Input value more on less then limit
+2020-03-02 14:54:35 ERROR  ua.exte.lab.mvc.AdminController [main] Wrong input format
+java.lang.NumberFormatException: For input string: "fff"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:658) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:776) ~[?:?]
+	at ua.external.lab.mvc.AdminController.check(AdminController.java:76) [classes/:?]
+	at ua.external.lab.mvc.AdminController.selectDroid(AdminController.java:59) [classes/:?]
+	at ua.external.lab.mvc.AdminController.selectOrRandom(AdminController.java:46) [classes/:?]
+	at ua.external.lab.mvc.AdminController.processAdmin(AdminController.java:40) [classes/:?]
+	at ua.external.lab.registrarion.MenuController.registrationOrAuthorization(MenuController.java:46) [classes/:?]
+	at ua.external.lab.mvc.BattleDroid.main(BattleDroid.java:18) [classes/:?]
+2020-03-02 14:54:46 INFO   ua.exte.lab.mvc.AdminController [main] Input value more on less then limit
+2020-03-02 14:57:06 INFO   ua.exte.lab.regi.MenuController [main] password does not match regex
+2020-03-02 14:57:10 INFO   ua.exte.lab.regi.MenuController [main] password does not match regex
+2020-03-02 14:57:17 INFO   ua.exte.lab.regi.MenuController [main] password does not match regex
+
+2020-03-06 15:19:57 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 15:23:30 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 15:38:25 ERROR  ua.exte.lab.regi.MenuController [main] Input wrong value
+2020-03-06 15:38:25 ERROR  ua.exte.lab.regi.MenuController [main] Input wrong value
+2020-03-06 16:21:21 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 16:44:59 INFO   ua.exte.lab.regi.MenuController [main] login already exist
+2020-03-06 16:45:41 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 16:49:45 INFO   ua.exte.lab.regi.MenuController [main] login does not match regex
+2020-03-06 16:50:27 INFO   ua.exte.lab.regi.MenuController [main] login does not match regex
+2020-03-06 16:50:41 INFO   ua.exte.lab.regi.MenuController [main] login already exist
+2020-03-06 16:51:17 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 16:52:58 ERROR  ua.exte.lab.mvc.UserController [main] Some of droids is null
+2020-03-06 16:55:27 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 17:01:38 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 17:02:14 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 17:02:26 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
+2020-03-06 17:02:57 ERROR  ua.exte.lab.regi.MenuController [main] Input wrong value
+2020-03-06 17:02:57 ERROR  ua.exte.lab.regi.MenuController [main] Input wrong value
+2020-03-06 17:03:50 INFO   ua.exte.lab.regi.MenuController [main] Wrong login or password
